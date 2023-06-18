@@ -39,6 +39,10 @@ socials_div.id = "socials_div"
 socials_div.appendChild(discord_button)
 socials_div.appendChild(youtube_button)
 
+cradit_text = document.createElement("p");
+
+cradit_text.innerText = "Created by vuyghu2020"
+
 
 document.body.appendChild(socials_div);
 
