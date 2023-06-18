@@ -42,6 +42,15 @@ socials_div.appendChild(youtube_button)
 cradit_text = document.createElement("p");
 
 cradit_text.innerText = "Created by vuyghu2020"
+cradit_text.style.width = "154px"
+cradit_text.style.position = "relative"
+
+setInterval(() => {
+    cradit_text.style.top = innerHeight - 36
+    cradit_text.style.left = innerWidth - 172
+}, 0);
+
+
 
 document.body.appendChild(cradit_text);
 
