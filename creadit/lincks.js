@@ -43,6 +43,7 @@ cradit_text = document.createElement("p");
 
 cradit_text.innerText = "Created by vuyghu2020"
 
+document.body.appendChild(cradit_text);
 
 document.body.appendChild(socials_div);
 
