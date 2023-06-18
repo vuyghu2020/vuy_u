@@ -45,6 +45,9 @@ cradit_text.innerText = "Created by vuyghu2020"
 cradit_text.style.width = "154px"
 cradit_text.style.position = "relative"
 
+cradit_text.style.top = innerHeight - 36
+cradit_text.style.left = innerWidth - 172
+
 setInterval(() => {
     cradit_text.style.top = innerHeight - 36
     cradit_text.style.left = innerWidth - 172
