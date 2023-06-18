@@ -5,7 +5,7 @@ youtube_url = "https://www.youtube.com/@vuyghu2020?sub_confirmation=1"
 // discord button
 discord_button = document.createElement("img")
 //discord_button.id = "discord"
-discord_button.src = "https://vuyghu2020.github.io/vuy_u/discord.png"
+discord_button.src = "https://vuyghu2020.github.io/vuy_u/creadit/discord.png"
 discord_button.onclick = open_discord
 
 // add style to discord button
@@ -20,7 +20,7 @@ discord_button.style.cursor = "pointer"
 
 // youtube button
 youtube_button = document.createElement("img")
-youtube_button.src = "https://vuyghu2020.github.io/vuy_u/youtube.png"
+youtube_button.src = "https://vuyghu2020.github.io/vuy_u/creadit/youtube.png"
 youtube_button.onclick = open_youtube
 // add style to youtube button
 sise = "50px"
